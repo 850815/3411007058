@@ -13,12 +13,87 @@
             background-color: red;
             color: white;
         }
+        /* 相對位置 */
+        #box2{
+            position: relative;
+            top: 20px;
+            left: 20px;
+            background-color: blue;
+        }
+        /* 絕對位置 */
+        #box3{
+            position: absolute;
+            top: 180px;
+            left: 20px;
+            background-color: green;
+        }
+        /* 浮動 */
+        .title{
+            border:1px solid;
+            height: 150px;
+        }
+        .left{
+            float: left;
+            background-color: red;
+            width: 50px;
+            height: 150px;
+        }
+        .right{
+            float: right;
+            background-color: blue;
+            width: 50px;
+            height: 150px;
+        }
+        .img{
+            position: absolute;
+            top:0px;
+            left: 0px;
+            z-index: -1;
+        }
+        /* overflow */
+        .overflow{
+            border: 1px solid;
+            height: 100px;
+            width: 200px;
+            overflow:scroll;
+        }
     </style>
 </head>
 <body>
+    <div>
+        123
+        <img class="img" src="https://fakeimg.pl/100x100/">
+    </div>
+    <br><br><br>
+    <br><br><br>
     <div class="box" id="box1">box1</div>
     <div class="box" id="box2">box2</div>
     <div class="box" id="box3">box3</div>
-    <div class="box" id="box4">box4</div>   
+    <div class="box" id="box4">box4</div> 
+    <br> 
+    <br> 
+    <br> 
+    <br> 
+    <div class="title">
+        <div class="left">left</div>
+        <div class="right">right</div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eos iste incidunt odio! Natus aliquid atque alias commodi adipisci, maiores neque placeat dolore quam consequuntur necessitatibus nam autem! Laborum, non.
+        Quis sit totam unde consequatur qui repudiandae impedit ut corporis repellendus reiciendis velit voluptas neque nobis deserunt ducimus delectus, fuga repellat voluptatum autem quam laudantium molestias? Dolorum praesentium quas dolor.
+        Nesciunt omnis, quasi sed eaque vitae eveniet quidem repudiandae blanditiis maxime beatae quos ducimus eum odit aperiam aliquid non tempora, minus iure error deleniti? Inventore sed blanditiis quas odit? Cumque!
+        Repellat accusantium at, nisi deleniti suscipit amet laboriosam, aspernatur nulla repudiandae id iste rerum distinctio saepe natus soluta quisquam iure vero veritatis, dignissimos adipisci quod aperiam esse repellendus? Quas, minus.</p>
+    </div>
+    <br>
+    <div class="overflow">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati architecto quia repudiandae repellat aliquid molestias veniam beatae ullam possimus error delectus odit sapiente soluta, ad sed explicabo quibusdam itaque sunt.
+        Quos vitae minus blanditiis obcaecati repudiandae inventore commodi aliquid officiis cupiditate odit non omnis eveniet soluta eaque voluptates sint ipsam ut modi fugit reprehenderit, distinctio consequatur voluptate magnam? Dicta, voluptates.
+        Magni corrupti, praesentium exercitationem soluta ex id cupiditate facere ullam repellendus, eveniet nobis fugit, aliquam voluptatum. Quaerat animi distinctio, maiores consequuntur earum quasi ad repellendus dolor aut officiis mollitia optio!
+        Distinctio error assumenda ea. Placeat quia nobis, neque dolorum cumque mollitia quisquam ratione consequuntur optio amet enim, iusto labore atque iure praesentium! Eaque explicabo rerum nulla, non eos ea praesentium?
+        Nobis quam qui similique a architecto voluptate quidem inventore eius iste voluptatibus soluta molestiae, alias vel voluptatem, unde incidunt quia nam laborum quaerat obcaecati! Alias labore molestiae molestias reiciendis quos?
+        Esse tempore consequatur quia eum reprehenderit deleniti, non temporibus, sint, ullam debitis maxime nobis eveniet? Quibusdam aperiam voluptates in temporibus inventore aspernatur, nemo provident quasi amet quisquam ipsa natus nihil.
+        Laboriosam aliquid voluptatum voluptates ratione aliquam magni, sapiente ea animi eligendi, nemo numquam cumque dolor! Nam repudiandae cum laboriosam odio! Rem odit laudantium fugiat labore saepe obcaecati inventore accusamus a!
+        Fugit vitae repellat corrupti explicabo aliquid similique et, quia odio quae nam inventore delectus ducimus consectetur illo iure id perspiciatis ullam quisquam unde. Ullam libero sapiente sed amet officia architecto.
+        Voluptas veritatis inventore ducimus. Consequatur officia, vero placeat odit laudantium maxime debitis est unde, veritatis officiis doloribus delectus eveniet, provident nostrum rem? Fuga officia, libero obcaecati unde repellendus velit illo!
+        Deleniti, voluptate! Iure iste recusandae doloremque natus ipsa earum beatae vel est deleniti explicabo sint libero accusantium eos facere placeat minima provident asperiores commodi modi, voluptas exercitationem. Saepe, numquam ex.
+    </div>
 </body>
 </html>
